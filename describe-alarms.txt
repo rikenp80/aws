@@ -1,0 +1,2 @@
+﻿cls
+aws cloudwatch describe-alarms --query "MetricAlarms[?AlarmName=='DB_Connections_Anomaly']"
